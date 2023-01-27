@@ -726,7 +726,7 @@ const defaultOptions = {
     kind: OptionKind.API
   },
   standardFontDataUrl: {
-    value: "../web/standard_fonts/",
+    value: "/standard_fonts/",
     kind: OptionKind.API
   },
   verbosity: {
@@ -738,7 +738,7 @@ const defaultOptions = {
     kind: OptionKind.WORKER
   },
   workerSrc: {
-    value: "../build/pdf.worker.js",
+    value: "pdf.worker.js",
     kind: OptionKind.WORKER
   }
 };
@@ -760,7 +760,7 @@ const defaultOptions = {
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE
   };
   defaultOptions.sandboxBundleSrc = {
-    value: "../build/pdf.sandbox.js",
+    value: "pdf.sandbox.js",
     kind: OptionKind.VIEWER
   };
 }
